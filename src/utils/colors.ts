@@ -1,0 +1,9 @@
+export const AppColors = {
+  PRIMARY_TEXT: '#1C1C28',
+
+  PRIMARY_BACKGROUND: '#FFFFFF',
+
+  TAB_BORDER: '#8F90A6',
+
+  LOADER_BACKGROUND: '#00000066',
+};
