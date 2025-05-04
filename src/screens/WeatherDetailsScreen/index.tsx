@@ -25,7 +25,6 @@ const WeatherDetailsScreen = () => {
         ApiEndpoints.WEATHER_DATA + `?key=${API_Key}&q=${params.city}`,
       );
       setWeatherData(response.data);
-      console.log(weatherData);
     } catch (error: any) {
       if (error.response) {
         if (error.response.status === 400) {
