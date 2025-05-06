@@ -26,7 +26,7 @@ const HomeScreen = () => {
         title={AppStrings.enter_a_city_name}
         placeholder={AppStrings.enter_a_city_name}
         value={city}
-        onChangeText={setCity}
+        onChangeText={text => setCity(text.toLowerCase())}
       />
       <View style={[styles.buttonContainer]}>
         <BaseButton title={AppStrings.search} onPress={handleSearch} />
